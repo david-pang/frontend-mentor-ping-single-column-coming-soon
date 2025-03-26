@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png" />
+  <link href="./src/assets/css/styles.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"></script>
+  <script src="./src/js/jquery-validate.js"></script>
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+
+<body class="font-libre-franklin">
+  <main class="text-center px-7 pt-20 pb-30 md:pb-18">
+    <div class="logo text-xl/6 font-bold">
+      PING<span class="text-blue">.</span>
+    </div>
+    <h1 class="mt-8 text-[22px] text-grey font-thin">
+      We are launching <strong class="text-blue-dark font-bold">soon!</strong>
+    </h1>
+    <p class="subtitle mt-4 text-xs font-thin">Subscribe and get notified</p>
+    <form action="" name="subscription"
+      class="flex flex-col mt-8 mx-auto px-4.5 gap-2.5 lg:flex-row md:max-w-1/2 lg:px-0 lg:text-center">
+      <fieldset class="grow lg:text-left">
+        <input type="email" name="email" class="input w-full placeholder:text-blue-light"
+          placeholder="Your email address..." />
+      </fieldset>
+      <fieldset>
+        <button type="submit"
+          class="button w-full text-xs font-semibold drop-shadow-(--button-drop-shadow) lg:w-[200px] lg:text-base">
+          Notify Me
+        </button>
+      </fieldset>
+    </form>
+    <div class="image mx-auto mt-18 md:max-w-1/2 ">
+      <img src="./src/assets/images/illustration-dashboard.png" title="Dashboard" />
+    </div>
+  </main>
+
+  <footer class="text-center">
+    <div class="footer-middle flex flex-col gap-6.5 pb-10 md:gap-6">
+      <div class="social-links">
+        <ul class="inline-flex gap-2.5 md:gap-4">
+          <li>
+            <a href="javascript:void(0)">
+              <i
+                class="social-icon fa-brands fa-facebook-f text-blue block transition before:block before:text-[12px] hover:bg-blue hover:text-white md:before:text-[16px]"></i>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <i
+                class="social-icon fa-brands fa-twitter text-blue block transition before:block before:text-[12px] hover:bg-blue hover:text-white md:before:text-[16px]"></i>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <i
+                class="social-icon fa-brands fa-instagram text-blue transition before:block before:text-[16px] hover:bg-blue hover:text-white md:before:text-[20px]"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright text-xxs text-grey font-light md:text-xs">&copy; Copyright Ping. All rights reserved.</div>
+    </div>
+    <div class="footer-bottom">
+      <div class="attribution p-4 text-white bg-black/50 backdrop-blur-md text-center">
+        Challenge by
+        <a class="transition underline underline-offset-4" href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank">Frontend Mentor</a>. Coded by
+        <a class="transition underline underline-offset-4" href="https://www.frontendmentor.io/profile/david-pang"
+          target="_blank">David Pang</a>.
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
